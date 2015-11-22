@@ -1,0 +1,7 @@
+*.log
+*.swp
+.editorconfig
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db

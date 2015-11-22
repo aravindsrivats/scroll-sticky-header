@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Myraid Pro', 'Arial', sans-serif;
+  font-size: 100%;
+}
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+  background: transparent;
+}
+a:focus {
+  text-decoration: none;
+}
+a:active,
+a:hover {
+  text-decoration: none;
+  outline: 0;
+}
+section.content {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  height: 1px;
+}
+#section1 {
+  background: #212121;
+}
+#section2 {
+  background: #DCEDC8;
+}
+#section3 {
+  background: #FDFDFD;
+}
+h1 {
+  font-size: 4.5em;
+  text-align: center;
+  padding: 20% 0 0;
+  color: #FFFFFF;
+}
+span {
+  display: block;
+  font-size: 1.3em;
+  text-align: center;
+  color: #EFEFEF;
+}
+nav {
+  position: absolute;
+  bottom : 0px;
+  width: 100%;
+  height: 76px;
+  text-align: center;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.7);
+}
+nav ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: auto;
+}
+nav ul li {
+  display: inline-block;
+  padding: 30px 20px;
+  text-align: center;
+  cursor: pointer;
+  margin: 0;
+  font-size: 1em;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  -ms-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+nav ul li:hover {
+  background: #363636;
+}
+/* line 117, css/app */
+nav ul li a {
+  padding: 30px 20px;
+  color: #FFFFFF;
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+}
