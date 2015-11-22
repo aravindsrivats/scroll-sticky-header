@@ -1,0 +1,38 @@
+{
+    "name": "scroll-sticky-header",
+    "description": "Plugin to stick the header to the top of the viewport while scrolling",
+    "main": "index.js",
+    "authors": [{
+        "name": "Aravind Srivatsan",
+        "url": "https://github.com/aravindsrivats"
+    }],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/aravindsrivats/scroll-sticky-header.git"
+    },
+    "dependencies": {
+        "jquery": ">1.6"
+    },
+    "keywords": [
+        "sticky",
+        "header",
+        "scroll",
+        "header",
+        "jquery-plugin",
+        "requirejs"
+    ],
+    "homepage": "https://github.com/aravindsrivats/scroll-sticky-header",
+    "moduleType": [
+        "amd",
+        "globals"
+    ],
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "public/components",
+        "test",
+        "tests"
+    ]
+}
